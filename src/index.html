@@ -3,11 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link href="./output.css" rel="stylesheet">
+  <title>Pinnacle</title>
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <section class="bg-[url('img/banner.jpg')] bg-no-repeat bg-cover bg-center w-full h-screen">
+    <header class="py-5 ">
+      <div class="max-w-310 mx-auto flex justify-between items-center  px-5 ">
+       <figure>
+         <img src="img/logo.1.png" alt="logo" >
+       </figure>
+       <nav  class="md:w-auto w-[80%] md:h-auto h-screen md:p-0 p-3 md:bg-transparent bg-[#003253]  md:static fixed top-0 left-[-100%] transition-all duration-500 ease-in-out">
+        <ul class="flex gap-7 md:flex-row flex-col">
+          <li class="">
+            <a class="text-white text-[17px] font-jost" href="#">ABOUT</a>
+          </li>
+          <li>
+            <a class="text-white text-[17px] font-jost" href="#">PRODUCT</a>
+          </li>
+          <li>
+            <a class="text-white text-[17px] font-jost" href="#">PLANS</a>
+          </li>
+          <li>
+            <a class="text-white text-[17px] font-jost" href="#">LOCATION</a>
+          </li>
+          <li>
+            <a class="text-white text-[17px] font-jost" href="#">PRICE</a>
+          </li>
+          <li>
+            <a class="text-white text-[17px] font-jost" href="#">AMINETIS</a>
+          </li>
+          <li>
+            <a class="text-white text-[17px] font-jost" href="#">SPECIFICATON</a>
+          </li>
+          <li>
+            <a class="text-white text-[17px] font-jost" href="#">GALLRY</a>
+          </li>
+          <li>
+            <a class="text-white text-[17px] font-jost" href="#">CONTACT US</a>
+          </li>
+        </ul>
+       </nav>
+       <button id="mIcon" class="md:hidden block">
+         <i class="fa-solid fa-bars text-white"></i>
+       </button>
+      </div>
+    </header>
+  </section>
+  <script src="script.js"></script>
 </body>
 </html>
