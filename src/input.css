@@ -3,4 +3,8 @@
 
 @theme{
     --font-jost: "Jost", sans-serif;
+    --color-primary: #003253;
+}
+*{
+    font-family:"Jost", sans-serif ;
 }
